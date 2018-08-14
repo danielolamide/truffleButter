@@ -1,0 +1,148 @@
+body{
+	background-color: #ED8692;
+}
+.wrapper{
+	margin: 60px auto;
+	max-width: 800px;
+	-webkit-box-shadow: 5px 4px 13px 6px rgba(0,0,0,0.29);
+	-moz-box-shadow: 5px 4px 13px 6px rgba(0,0,0,0.29);
+	box-shadow: 5px 4px 13px 6px rgba(0,0,0,0.29);
+	display: grid;
+	/*max-height: 600px;*/
+	grid-template-columns: 1fr 1fr;
+	border-radius: 20px;
+}
+a{
+	text-decoration: none;
+}
+button:hover{
+	cursor: pointer;
+}
+button:focus{
+	outline: none;
+}
+.tab button.active {
+   	color: white;
+   	padding-bottom: 2px;
+	border-bottom: 2px solid #53C5B9;
+}
+.img-text{
+	color: #EAEAEA;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	letter-spacing: 0.08em;
+	font-weight: 600;
+	max-width: 300px;
+	margin: 150px auto;
+}
+.panel1{
+	width: 100%;
+	background: linear-gradient(rgba(99, 213, 196,0.62),rgba(83,197,185,0.4)),url("../images/strath.jpg");
+	background-color:#63D5C4;
+	background-size: cover;
+	background-repeat: no-repeat;
+	grid-column: 1/2;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.panel2{
+	grid-column: 2/3;
+	width: 100%;
+	display: grid;
+	background-color: #3C3E52;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px; 
+}
+.tab span{
+	color: grey;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.tab{
+	padding: 0 19px;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+.tabcontent {
+    display: none;
+    /*padding: 6px 12px;*/
+}
+input{
+	border: 0;
+  	outline: 0;
+  	background: transparent;
+  	border-bottom: 1px solid white;
+  	color: white;
+  	font-family:'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	padding-bottom: 10px;
+	width: 280px;
+}
+.field-input{
+	padding: 0 25px;
+	padding-bottom: 20px;
+}
+.field-name{
+	padding: 2px 25px;
+	color: #EAEAEA;
+	text-transform: uppercase;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 550;
+}
+.tabLinks{
+	font-family: 'Source Sans Pro', sans-serif;
+	border-style: none;
+	background-color: transparent;
+	color: grey;
+	font-size: 20px;
+	padding: 10px 5px;
+}
+.tabLinks:hover{
+	text-shadow: 4px 3px 7px rgba(138, 149, 150, 1);
+}
+.account_present{
+	float: right;
+	padding: 12px 18px;
+}
+.submitBtn{
+	padding: 10px 25px;
+}
+.sign-up{
+	border-style: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #58CABD;
+	color: white;
+	padding: 8px 20px;
+	border-radius: 20px;
+	font-size: 14px;
+	
+}
+.sign-up:hover{
+	cursor: pointer;
+	-webkit-box-shadow: 5px 4px 13px 6px rgba(0,0,0,0.29);
+	-moz-box-shadow: 5px 4px 13px 6px rgba(0,0,0,0.29);
+	box-shadow: 5px 4px 13px 6px rgba(0,0,0,0.29);
+}
+.account_present button{
+	color: grey;
+	border-style: none;
+	background-color: transparent;
+	font-family: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-bottom: 2px;
+	border-bottom: 0.1px solid #53C5B9;	
+	transition: color border-bottom .2s;
+}
+.account_present button:hover{
+	color: white;
+	border-bottom: 2px solid #53C5B9;
+}
+.error p{
+	font-family: 'Source Sans Pro' sans-serif;
+	padding: 0 20px;
+	color: #EAEAEA;
+}
+.error p span{
+	color: red;
+	font-family: 'Source Sans Pro' sans-serif;
+}
